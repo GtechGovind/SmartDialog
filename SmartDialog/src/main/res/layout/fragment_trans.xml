@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.TransFragment">
+
+    <include
+        android:id="@+id/ServiceCreationLayout"
+        android:visibility="gone"
+        layout="@layout/emv_service_creation" />
+
+    <include
+        android:id="@+id/MoneyLoadLayout"
+        android:visibility="gone"
+        layout="@layout/emv_money_load" />
+
+    <include
+        android:id="@+id/PurchaseLayout"
+        android:visibility="gone"
+        layout="@layout/emv_purchase" />
+
+    <include
+        android:id="@+id/BalanceEnquiryLayout"
+        android:visibility="gone"
+        layout="@layout/emv_balance_check" />
+
+    <include
+        android:id="@+id/BalanceUpdate"
+        android:visibility="gone"
+        layout="@layout/emv_balance_update" />
+
+</FrameLayout>
