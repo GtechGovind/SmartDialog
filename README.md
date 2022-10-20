@@ -1,1 +1,4 @@
-[![Download](https://maven-badges.herokuapp.com/maven-central/com.github.GtechGovind/SmartDialog/badge.(svg|png)?style=plastic&gav=true)]
+#Smart Dialog
+
+An Android Lib for all your dialog needs
+
