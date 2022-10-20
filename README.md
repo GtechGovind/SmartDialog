@@ -23,3 +23,15 @@ dependencyResolutionManagement {
     }
 }
 ```
+
+## Usage
+
+This lib offers two types of dialogs Loading Dialog & Aleart Dailog
+
+### Loading Dialog
+
+```groovy
+startLoader("Pass your message")
+              or
+startLoader() // default message : Please wait loading 
+```
