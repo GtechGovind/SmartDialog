@@ -95,6 +95,8 @@ class ChatFragment : Fragment(), DialogListeners {
 
 #### Example (Without DialogListeners)
 
+```groovy
+
 class ChatFragment : Fragment() {
 
     private var _binding: FragmentChatBinding? = null
